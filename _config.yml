@@ -1,41 +1,39 @@
 ---
-title: 'expediteJS: A simple worlflow for cloud apps'
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+
 port: 4000
 host: 0.0.0.0
 safe: false
-exclude:
-- CNAME
-- README.md
-- ".gitignore"
-permalink: "/:title"
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
 lsi: false
 markdown: kramdown
-keywords: expedite, expeditejs, kaiOS, Kai, gitdeploy, javascript, github, nodejs,
-  app creator, node, npm
-description: The single piece of software you need to use to build and deploy kickass
-  apps with node
-source_link: https://github.com/expeditejs/expedite
-favicon: ''
-touch_icon: ''
-google_analytics_key: 
-docs_link: ''
-googlefontcss: http://fonts.googleapis.com/css?family=Raleway:400,300,700
+
+
+### content configuration ###
+title:       "expediteJS: A simple worlflow for cloud apps"
+keywords:    "expedite, expeditejs, kaiOS, Kai, gitdeploy, javascript, github, nodejs, app creator, node, npm"
+description: "The single piece of software you need to use to build and deploy kickass apps with node"
+source_link: "https://github.com/expeditejs/expedite"
+favicon:     ""
+touch_icon:  ""
+google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
+docs_link: ""
+googlefontcss: "http://fonts.googleapis.com/css?family=Raleway:400,300,700"
 fontawesomecss: "//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+
+### template colors, used site-wide via css ###
 colors:
-  black: "#111111"
-  white: "#f8f8f8"
-  blue: "#49a7e9"
-  green: "#9bcf2f"
-  purple: "#c869bf"
-  orange: "#fab125"
-  turquoise: "#0fbfcf"
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+
 kramdown:
-  auto_ids: false
+  auto_ids:  false
