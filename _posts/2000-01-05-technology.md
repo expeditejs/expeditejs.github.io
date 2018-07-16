@@ -1,5 +1,6 @@
 ---
-title: "Technology"
+title: Technology
+date: 2000-01-05 00:00:00 Z
 bg: orange
 color: white
 style: center
