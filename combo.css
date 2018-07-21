@@ -1,0 +1,16 @@
+---
+---
+{% include css/base.css %}
+{% include css/skeleton.css %}
+{% include css/main.css %}
+
+nav ul li {
+    display: inline-block;
+    border-top: 10px solid;
+    padding: 5px;
+}
+
+nav ul li:hover, nav ul li.active {
+    border-top-width: 15px;
+    padding-top: 0;
+}
