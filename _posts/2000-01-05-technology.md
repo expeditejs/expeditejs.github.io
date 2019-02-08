@@ -1,6 +1,6 @@
 ---
 title: "Technology"
-bg: white
+bg: olive
 color: black
 fa-icon: magic
 ---
