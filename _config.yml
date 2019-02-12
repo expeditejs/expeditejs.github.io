@@ -34,7 +34,8 @@ colors:
   purple:    '#c869bf'
   olive:    '#808000'     ###color change ###
   turquoise: '#0fbfcf'
-  gray:       '#AAAAAA'   ### color exp ###
+  gray:       '#AAAAAA'
+  T400 - Prom dress: '#00A3BF'     ### color exp ###
 
 kramdown:
   auto_ids:  false
