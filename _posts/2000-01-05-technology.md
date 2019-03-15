@@ -46,3 +46,18 @@ fa-icon: magic
 
 and with roadmap to support many more!
 
+#### Available Commands
+
+   - `expedite-front-react-base` It creates a react base template with all the plugins configured. 
+   - `expedite-front-docsites` It will initialise docusaurus.
+   - `expedite-front-docsites-config` It will pick values from config file and apply them to the generated application.
+   - `expedite-front-start` It will initialise the local server at localhost:8080
+
+
+
+
+
+
+
+
+
